@@ -184,7 +184,19 @@ table {
     width: 25%;
 }
 
+.grid-container {
+    max-width: 785px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 
+.grid-container img {
+    border: 3px solid rgb(245, 209, 6);
+    width: 325px;
+    height: 385px;
+}
 
 @media (max-width: 740px) {
     .header {
