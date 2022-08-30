@@ -95,7 +95,6 @@ h2 {
     color: black;
     padding-top: 30px;
     padding-bottom: 15px;
-    border-top: 3px solid rgb(19, 169, 255);
 }
 
 #terceraSeccion a {
@@ -111,7 +110,6 @@ h2 {
     justify-content: space-evenly;
     text-align: center;
     padding-top: 20px;
-    border-top: 3px solid black;
 }
 
 .footer h3 {
