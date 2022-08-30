@@ -166,13 +166,13 @@ h5 {
 }
 
 .textForm {
-    width: 35%;
+    width: 40%;
     background-color: white;
     padding: 10px;
     border-radius: 3px;
     color: rgb(0, 0, 0);
     font-size: x-large;
-    max-width: 35%;
+    max-width: 40%;
 }
 
 textarea {
@@ -233,6 +233,18 @@ table {
     .img {
         height: 200px;
         width: 200px;
+    }
+
+    .textForm {
+        width: 60%;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .textForm {
+        width: 80%;
+        max-width: 80%;
     }
 }
 
