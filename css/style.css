@@ -166,9 +166,18 @@ h5 {
 }
 
 .textForm {
-    width: 40%;
+    width: 35%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
     color: rgb(0, 0, 0);
     font-size: x-large;
+    max-width: 35%;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
 }
 
 ::placeholder {
