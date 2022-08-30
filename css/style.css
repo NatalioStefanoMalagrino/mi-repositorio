@@ -8,17 +8,15 @@
 .img {
     width: 500px;
     height: 500px;
-    border: 3px solid rgb(245, 209, 6);
+    border: 3px solid rgb(19, 169, 255);
 }
 
 h1 {
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     background-color: white;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 6px solid rgb(245, 209, 6);
-    border-top: 3px solid rgb(245, 209, 6);
 }
 
 h2 {
@@ -35,13 +33,12 @@ h2 {
     position: sticky;
     padding: 20px;
     top: 0;
-    border-bottom: 3px solid rgb(245, 209, 6);
+    border-bottom: 2px solid rgb(19, 169, 255);
 }
 
 
 .header img {
     width: 100px;
-    border: 3px solid rgb(245, 209, 6);
 }
 
 .header ul {
@@ -61,12 +58,11 @@ h2 {
 .header a {
     text-decoration: none;
     color: white;
-
     font-weight: bold;
 }
 
 .header a:hover {
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     transition: 1s;
 }
 
@@ -78,7 +74,7 @@ h2 {
 
 #primeraSeccion a {
     text-decoration: none;
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     font-weight: bold;
     font-size: large;
 }
@@ -89,7 +85,7 @@ h2 {
 
 #segundaSeccion a {
     text-decoration: none;
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     font-weight: bold;
     font-size: large;
 }
@@ -99,34 +95,30 @@ h2 {
     color: black;
     padding-top: 30px;
     padding-bottom: 15px;
-    border-top: 6px solid rgb(245, 209, 6);
+    border-top: 3px solid rgb(19, 169, 255);
 }
 
 #terceraSeccion a {
     text-decoration: none;
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     font-weight: bold;
     background-color: white;
     font-size: large;
 }
 
 .footer {
-    background-color: rgb(245, 209, 6);
+    background-color: rgb(34, 29, 29);
     justify-content: space-evenly;
     text-align: center;
     padding-top: 20px;
-    border-top: 6px solid black;
+    border-top: 3px solid black;
 }
 
 .footer h3 {
-    background-color: rgb(245, 209, 6);
+    background-color: rgb(34, 29, 29);
 }
 
 .footer a {
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
     padding: 20px;
     display: inline-block;
     border-radius: 5%;
@@ -134,20 +126,25 @@ h2 {
     margin-bottom: 20px;
 }
 
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
 .actividades table {
     margin: auto;
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     background-color: white;
     font-size: x-large;
 }
 
 h3 {
-    color: rgb(245, 209, 6);
+    color: rgb(19, 169, 255);
     font-size: x-large;
 }
 
 .footer h3 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 h4 {
@@ -195,7 +192,7 @@ table {
 }
 
 .grid-container img {
-    border: 3px solid rgb(245, 209, 6);
+    border: 3px solid rgb(19, 169, 255);
     width: 325px;
     height: 385px;
 }
