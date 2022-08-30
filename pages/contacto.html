@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorcut icon" href="../img/logoGym.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
@@ -13,7 +14,7 @@
 <body>
     <!-- Menu de navegación -->
     <header class="header">
-        <img src="../img/logoGym.png" alt="Logo del gym">
+        <img class="animate__animated animate__bounceInLeft" src="../img/logoGym.png" alt="Logo del gym">
         <nav>
             <ul>
                 <li>
@@ -37,7 +38,7 @@
     </header>
 
     <main>
-        <h1>ESTEMOS EN CONTACTO</h1>
+        <h1 class="animate__animated animate__backInUp animate__bounceIn">ESTEMOS EN CONTACTO</h1>
         <section id="seccionCon" class="sec">
             <img src="../img/imagenContacto.jpg" alt="Personas chocando los cinco" class="img">
             <h2>COMIENZA A ENTRENAR</h2>
@@ -93,6 +94,11 @@
         <a href="https://www.instagram.com/"><img src="../img/logoInsta.png" alt="logo insta"></a>
         <a href="https://web.whatsapp.com/"><img src="../img/logoWpp.png" alt="logo wpp"></a>
     </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>

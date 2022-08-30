@@ -34,6 +34,7 @@ h2 {
     padding: 20px;
     top: 0;
     border-bottom: 2px solid rgb(19, 169, 255);
+    z-index: 1;
 }
 
 
@@ -224,10 +225,6 @@ table {
         width: 100%;
     }
 
-    .header ul {
-        flex-direction: column;
-    }
-
     .img {
         height: 200px;
         width: 200px;
@@ -236,6 +233,12 @@ table {
     .textForm {
         width: 60%;
         max-width: 60%;
+    }
+}
+
+@media (max-width: 520px) {
+    .header ul {
+        flex-direction: column;
     }
 }
 
