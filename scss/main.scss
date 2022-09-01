@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+@import './secciones/img';
+
+@import './secciones/h';
+
+@import './secciones/header';
+
+@import './secciones/seccion';
+
+@import './secciones/footer';
+
+@import './secciones/contactos';
+
+@import './secciones/ubicaciones';
+
+@import './secciones/form';
+
+@import './secciones/table';
+
+@import './secciones/grid';

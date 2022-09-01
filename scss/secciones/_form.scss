@@ -1,0 +1,31 @@
+.textForm {
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    max-width: 40%;
+    textarea {
+        overflow: auto;
+        resize: none;
+    }
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 640px) {
+    .textForm {
+        width: 60%;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .textForm {
+        width: 80%;
+        max-width: 80%;
+    }
+}

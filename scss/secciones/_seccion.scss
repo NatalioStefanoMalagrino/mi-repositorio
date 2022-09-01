@@ -1,0 +1,35 @@
+.sec {
+    text-align: center;
+    background-color: rgb(34, 29, 29);
+}
+
+#primeraSeccion a {
+    text-decoration: none;
+    color: rgb(19, 169, 255);
+    font-weight: bold;
+    font-size: large;
+}
+
+#segundaSeccion {
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: rgb(19, 169, 255);
+        font-weight: bold;
+        font-size: large;
+    }
+}
+
+#terceraSeccion {
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    a {
+        text-decoration: none;
+        color: rgb(19, 169, 255);
+        font-weight: bold;
+        background-color: white;
+        font-size: large;
+    }
+}

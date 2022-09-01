@@ -1,0 +1,9 @@
+.ubicaciones {
+    display: inline-block;
+}
+
+@media (max-width: 640px) {
+    iframe {
+        width: 100%;
+    }
+}
