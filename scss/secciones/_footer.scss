@@ -1,10 +1,11 @@
 .footer {
-    background-color: rgb(34, 29, 29);
+    background-image: url(../img/fondoFooter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     justify-content: space-evenly;
     text-align: center;
     padding-top: 20px;
     h3 {
-        background-color: rgb(34, 29, 29);
         color: rgb(255, 255, 255);
     }
     a {

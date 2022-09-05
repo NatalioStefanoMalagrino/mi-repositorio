@@ -99,12 +99,13 @@ h5 {
     font-size: large; }
 
 .footer {
-  background-color: #221d1d;
+  background-image: url(../img/fondoFooter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   justify-content: space-evenly;
   text-align: center;
   padding-top: 20px; }
   .footer h3 {
-    background-color: #221d1d;
     color: white; }
   .footer a {
     padding: 20px;
