@@ -8,10 +8,10 @@
     top: 0;
     border-bottom: 2px solid rgb(19, 169, 255);
     z-index: 20;
-    img {
+    &__img {
         width: 100px;
     }
-    ul {
+    &__ul {
         list-style: none;
         display: flex;
         li {
@@ -24,9 +24,12 @@
                 text-decoration: none;
                 color: white;
                 font-weight: bold;
+                --color {
+                    color: rgb(19, 169, 255);
+                }
                 &:hover {
                     color: rgb(19, 169, 255);
-                    transition: 1s;
+                    transition: 1s; 
                 }
             }
         }

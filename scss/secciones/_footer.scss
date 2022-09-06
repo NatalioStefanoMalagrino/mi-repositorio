@@ -5,17 +5,17 @@
     justify-content: space-evenly;
     text-align: center;
     padding-top: 20px;
-    h3 {
+    &__h3 {
         color: rgb(255, 255, 255);
     }
-    a {
+    &__a {
         padding: 20px;
         display: inline-block;
         border-radius: 5%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    img {
+    &__img {
         width: 50px;
         height: 50px;
     }
