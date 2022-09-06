@@ -12,6 +12,14 @@
     }
 }
 
+.submit {
+    &:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition: 0.75s;
+    }
+}
+
 ::placeholder {
     color: rgb(0, 0, 0);
 }

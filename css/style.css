@@ -123,6 +123,9 @@ h5 {
   padding: 20px;
   display: inline-block;
   border-radius: 5%; }
+  .contactos a:hover {
+    color: #13a9ff;
+    transition: 1s; }
 
 .ubicaciones {
   display: inline-block; }
@@ -142,6 +145,11 @@ h5 {
   .textForm textarea {
     overflow: auto;
     resize: none; }
+
+.submit:hover {
+  background-color: black;
+  color: white;
+  transition: 0.75s; }
 
 ::placeholder {
   color: black; }
