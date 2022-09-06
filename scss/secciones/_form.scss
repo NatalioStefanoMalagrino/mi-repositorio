@@ -1,11 +1,11 @@
 .textForm {
-    width: 40%;
+    width: 50%;
     background-color: white;
     padding: 10px;
     border-radius: 3px;
     color: rgb(0, 0, 0);
     font-size: x-large;
-    max-width: 40%;
+    max-width: 50%;
     textarea {
         overflow: auto;
         resize: none;
@@ -18,14 +18,14 @@
 
 @media (max-width: 640px) {
     .textForm {
-        width: 60%;
-        max-width: 60%;
+        width: 70%;
+        max-width: 70%;
     }
 }
 
 @media (max-width: 400px) {
     .textForm {
-        width: 80%;
-        max-width: 80%;
+        width: 90%;
+        max-width: 90%;
     }
 }
