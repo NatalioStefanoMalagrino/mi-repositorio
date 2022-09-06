@@ -1,11 +1,11 @@
 .contactos a {
-    color: white;
+    color: $blanco;
     font-weight: bold;
     padding: 20px;
     display: inline-block;
     border-radius: 5%;
     &:hover {
-        color: rgb(19, 169, 255);
+        color: $azul;
         transition: 1s;
     }
 }

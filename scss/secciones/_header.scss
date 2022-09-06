@@ -1,12 +1,12 @@
 .header {
-    background-image: linear-gradient(to left, black, rgb(214, 208, 208));
+    background-image: linear-gradient(to left, $negro, $grisC);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     padding: 20px;
     top: 0;
-    border-bottom: 2px solid rgb(19, 169, 255);
+    border-bottom: 2px solid $azul;
     z-index: 20;
     &__img {
         width: 100px;
@@ -22,13 +22,13 @@
             }
             a {
                 text-decoration: none;
-                color: white;
+                color: $blanco;
                 font-weight: bold;
                 --color {
-                    color: rgb(19, 169, 255);
+                    color: $azul;
                 }
                 &:hover {
-                    color: rgb(19, 169, 255);
+                    color: $azul;
                     transition: 1s; 
                 }
             }

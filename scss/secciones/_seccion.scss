@@ -1,11 +1,11 @@
 .sec {
     text-align: center;
-    background-color: rgb(34, 29, 29);
+    background-color: $grisO;
 }
 
 #primeraSeccion a {
     text-decoration: none;
-    color: rgb(19, 169, 255);
+    color: $azul;
     font-weight: bold;
     font-size: large;
 }
@@ -14,7 +14,7 @@
     text-align: center;
     a {
         text-decoration: none;
-        color: rgb(19, 169, 255);
+        color: $azul;
         font-weight: bold;
         font-size: large;
     }
@@ -22,14 +22,14 @@
 
 #terceraSeccion {
     text-align: center;
-    color: black;
+    color: $negro;
     padding-top: 30px;
     padding-bottom: 15px;
     a {
         text-decoration: none;
-        color: rgb(19, 169, 255);
+        color: $azul;
         font-weight: bold;
-        background-color: white;
+        background-color: $blanco;
         font-size: large;
     }
 }

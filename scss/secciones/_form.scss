@@ -1,10 +1,10 @@
 .textForm {
     width: 50%;
-    background-color: white;
+    background-color: $blanco;
     padding: 10px;
     border: none;
     border-radius: 10px;
-    color: rgb(0, 0, 0);
+    color: $negro;
     font-size: x-large;
     max-width: 50%;
     overflow: auto;
@@ -13,14 +13,14 @@
 
 .submit {
     &:hover {
-        background-color: rgb(0, 0, 0);
-        color: white;
+        background-color: $negro;
+        color: $blanco;
         transition: 0.75s;
     }
 }
 
 ::placeholder {
-    color: rgb(0, 0, 0);
+    color: $negro;
 }
 
 @media (max-width: 640px) {
