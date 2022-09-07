@@ -1,0 +1,17 @@
+Keywords:
+
+index: Golds gym, actividades, contacto, sedes, prueba, entrenar
+actividades: Golds gym, actividades, clase, cycling, boxing, crossfit, natacion calistenia, zumba
+contacto: Golds gym, contacto, facebook, instagram, whatsapp, formulario
+prueba: Golds gym, prueba, instalaciones, formulario, coordinar
+sedes: Golds gym, sedes, almagro, belgrano, palermo, cercana
+
+Los titulos fueron cambiados al nombre de la pagina y se les agrego la aclaracion de el html en el que se encuentra situado:
+
+Golds gym | Inicio
+Golds gym | Actividades
+Golds gym | Contacto
+Golds gym | Prueba
+Golds gym | Sedes
+
+Todas las imagenes fueron comprimidas
