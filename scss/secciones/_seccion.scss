@@ -1,35 +1,23 @@
 .sec {
-    text-align: center;
-    background-color: $grisO;
+    @extend %sec;
 }
 
 #primeraSeccion a {
-    text-decoration: none;
-    color: $azul;
-    font-weight: bold;
-    font-size: large;
+    @extend %secc;
 }
 
 #segundaSeccion {
-    text-align: center;
     a {
-        text-decoration: none;
-        color: $azul;
-        font-weight: bold;
-        font-size: large;
+        @extend %secc;
     }
 }
 
 #terceraSeccion {
-    text-align: center;
-    color: $negro;
+    @include estiloTexto ($negro);
     padding-top: 30px;
     padding-bottom: 15px;
     a {
-        text-decoration: none;
-        color: $azul;
-        font-weight: bold;
+        @extend %secc;
         background-color: $blanco;
-        font-size: large;
     }
 }

@@ -4,14 +4,24 @@
   font-family: sans-serif;
   box-sizing: border-box; }
 
+.sec {
+  text-align: center;
+  background-color: #221d1d; }
+
+#primeraSeccion a, #segundaSeccion a, #terceraSeccion a {
+  text-decoration: none;
+  color: #13a9ff;
+  font-weight: bold;
+  font-size: large; }
+
 .img {
   width: 100%;
   height: 100%; }
 
 h1 {
+  text-align: center;
   color: #13a9ff;
   background-color: white;
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px; }
 
@@ -70,35 +80,13 @@ h5 {
   .header ul {
     flex-direction: column; } }
 
-.sec {
-  text-align: center;
-  background-color: #221d1d; }
-
-#primeraSeccion a {
-  text-decoration: none;
-  color: #13a9ff;
-  font-weight: bold;
-  font-size: large; }
-
-#segundaSeccion {
-  text-align: center; }
-  #segundaSeccion a {
-    text-decoration: none;
-    color: #13a9ff;
-    font-weight: bold;
-    font-size: large; }
-
 #terceraSeccion {
   text-align: center;
   color: black;
   padding-top: 30px;
   padding-bottom: 15px; }
   #terceraSeccion a {
-    text-decoration: none;
-    color: #13a9ff;
-    font-weight: bold;
-    background-color: white;
-    font-size: large; }
+    background-color: white; }
 
 .footer {
   background-image: url(../img/fondoFooter.jpg);

@@ -1,7 +1,6 @@
 h1 {
-    color: $azul;
+    @include estiloTexto ($azul);
     background-color: $blanco;
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
