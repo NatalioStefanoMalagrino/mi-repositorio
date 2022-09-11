@@ -76,7 +76,7 @@ h5 {
   .header {
     flex-direction: column; } }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
   .header ul {
     flex-direction: column; } }
 
@@ -91,7 +91,8 @@ h5 {
 .footer {
   background-image: url(../img/fondoFooter.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   justify-content: space-evenly;
   text-align: center;
   padding-top: 20px; }
