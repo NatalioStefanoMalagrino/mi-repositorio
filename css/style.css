@@ -162,22 +162,16 @@ table {
   font-size: x-large; }
 
 .grid-container {
-  max-width: 785px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr); }
   .grid-container img {
-    width: 325px;
-    height: 385px;
+    width: 100%;
+    height: 100%;
     padding: 20px; }
 
 @media (max-width: 640px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr); } }
-
-@media (max-width: 322px) {
-  .grid-container img {
-    width: 160px;
-    height: 190px; } }
+    grid-template-rows: repeat(3, 1fr); } }
