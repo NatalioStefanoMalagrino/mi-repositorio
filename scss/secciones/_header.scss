@@ -1,49 +1,50 @@
 .header {
     background-image: linear-gradient(to left, $negro, $grisC);
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    padding: 20px;
     top: 0;
     border-bottom: 2px solid $azul;
     z-index: 20;
+
     &__img {
         width: 100px;
     }
+
     &__ul {
-        list-style: none;
         display: flex;
+        list-style: none;
+        align-items: center;
+
         li {
             padding: 15px;
+
             &:hover {
                 transform: scale(1.2, 1.2);
                 transition: 1s;
             }
+
             a {
                 text-decoration: none;
                 color: $blanco;
                 font-weight: bold;
-                --color {
-                    color: $azul;
-                }
+
                 &:hover {
                     color: $azul;
-                    transition: 1s; 
+                    transition: 1s;
                 }
             }
         }
     }
 }
 
-@media (max-width: 740px) {
-    .header {
-        flex-direction: column;
-    }
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
-@media (max-width: 550px) {
-    .header ul {
-        flex-direction: column;
-    }
+.navbar-toggler {
+    background-color: $azul;
+    color: $grisO;
 }

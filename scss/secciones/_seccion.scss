@@ -16,6 +16,7 @@
     @include estiloTexto ($negro);
     padding-top: 30px;
     padding-bottom: 15px;
+
     a {
         @extend %secc;
         background-color: $blanco;
