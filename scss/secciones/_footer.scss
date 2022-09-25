@@ -7,7 +7,7 @@
     text-align: center;
     padding-top: 20px;
 
-    &__h3 {
+    &__h4 {
         color: $blanco;
     }
 
@@ -17,10 +17,16 @@
         border-radius: 5%;
         margin-top: 20px;
         margin-bottom: 20px;
+
+        &:hover {
+            transform: scale(1.5, 1.5);
+            transition: 1s;
+        }
     }
 
     &__img {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
     }
 }
+

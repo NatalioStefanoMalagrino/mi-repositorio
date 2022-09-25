@@ -2,23 +2,40 @@
     @extend %sec;
 }
 
-#primeraSeccion a {
-    @extend %secc;
-}
-
-#segundaSeccion {
-    a {
+.primeraSeccion {
+    &__a {
         @extend %secc;
+
+        &:hover {
+            color: $blanco;
+            transition: 1s;
+        }
     }
 }
 
-#terceraSeccion {
+.segundaSeccion {
+    &__a {
+        @extend %secc;
+
+        &:hover {
+            color: $blanco;
+            transition: 1s;
+        }
+    }
+}
+
+.terceraSeccion {
     @include estiloTexto ($negro);
     padding-top: 30px;
     padding-bottom: 15px;
 
-    a {
+    &__a {
         @extend %secc;
         background-color: $blanco;
+
+        &:hover {
+            color: $grisO;
+            transition: 1s;
+        }
     }
 }
