@@ -1,3 +1,5 @@
+La pagina web fue realizada para un gimnasio ficticio, cuenta con 5 html y es totalmente resposinve.
+
 Keywords:
 
 index: Bro gym, actividades, contacto, sedes, prueba, entrenar
